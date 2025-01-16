@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(244, 244, 244);
+}
+
+p{
+    color: #333;
+    letter-spacing: 1px;
+}
+
+h2{
+    color: black;
+    font-weight: 600;
+}
+
+/* HEADER */
+header {
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.heading {
+    padding: 15px;
+}
+
+.heading p{
+    color: white;
+}
+
+.heading h1:hover {
+    color: white;
+}
+
+.heading h1 {
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: black;
+    padding: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: rgb(230, 230, 230);
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* HOME */
+
+.home {
+    border: 1px solid grey;
+    margin: 20px 270px 20px 270px;
+    padding: 25px 12px 25px 18px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.home h2 {
+    margin-bottom: 10px;
+}
+
+/* ABOUT US */
+
+.about-us {
+    border: 1px solid grey;
+    margin: 20px 270px 20px 270px;
+    padding: 25px 20px 25px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.about-us p {
+    margin-bottom: 5px;
+}
+
+/* OUR SERVICES */
+
+.our-service {
+    border: 1px solid grey;
+    margin: 20px 270px 20px 270px;
+    padding: 25px 20px 25px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.our-service ul li {
+    margin-left: 20px;
+}
+
+.our-service h2 {
+    margin-bottom: 10px;
+}
+
+/* OUR PROJECT */
+.our-project {
+    border: 1px solid grey;
+    margin: 20px 270px 20px 270px;
+    padding: 25px 20px 25px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.our-project ul li {
+    margin-left: 20px;
+}
+
+.our-project p {
+    margin: 10px 0px;
+}
+
+/* CONTACT US */
+
+.contact-us {
+    border: 1px solid grey;
+    margin: 20px 270px 20px 270px;
+    padding: 25px 20px 25px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* FORM */
+
+input {
+    height: 25px;
+    width: 365px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: white;
+}
+
+
+.form {
+    background-color: black;
+    border: 1px solid grey;
+    margin: 30px 275px 30px 250px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+.detail {
+    text-align: center;
+}
+
+
+label {
+    display: block;
+}
+
+form input,textarea {
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 3px;
+    outline: 0;
+}
+
+textarea {
+    height: 50px;
+    width: 365px;
+    padding: 5px;
+    background-color: white;
+}
+
+button {
+    color: white;
+    border: 1px solid white;
+    display: block;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+    margin: 10px 80px;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
+footer p{
+    padding: 30px;
+    color: white;
+    background-color: royalblue;
+    text-align: center;
+}
